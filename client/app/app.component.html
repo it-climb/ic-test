@@ -1,0 +1,23 @@
+<div>
+    <h1>Q1</h1>
+    <input ng-model="q1"/>
+    <button ng-click="my.stringRevert(q1)">ok</button>
+    <h1>{{my.answer}}</h1>
+</div>
+<div>
+    <h1>Q2</h1>
+    <input ng-model="q2"/>
+    <button ng-click="my.coinsCounter(q2)">ok</button>
+    <h1>{{my.answer2}}</h1>
+</div>
+<div>
+    <h1>Q3</h1>
+    <input ng-model="q3v1"
+           placeholder="yyyy-MM-dd"
+           type="date"/>
+    <input ng-model="q3v2"
+           placeholder="yyyy-MM-dd"
+           type="date"/>
+    <button ng-click="my.dateRange(q3v1,q3v2)">ok</button>
+    <h1>{{my.answer3}}</h1>
+</div>
